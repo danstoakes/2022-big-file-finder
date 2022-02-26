@@ -14,22 +14,29 @@ Without flags, the script outputs all files/directories with a file size exceedi
 
 The script flags are optional. The available ones are:
 
-`-h` - displays a help message
-`-s` - the target file size to check against
-`-d` - the directory to traverse
-`-f` - the file to write results to
+`-h` displays a help message <br />
+`-s` the target file size to check against <br />
+`-d` the directory to traverse <br />
+`-f` the file to write results to
 
 # Examples
 
+Output any files/directories in *Documents* larger than 10GB to the terminal <br />
 `
-# Output any files/directories in *Documents* larger than 10GB to the terminal
 $ ./finder.sh -s 10G -d ~/Documents
 `
 
+Write any files/directories larger than 1GB to *test.txt* <br />
 `
-# Write any files/directories larger than 1GB to *test.txt*
 $ ./finder.sh -f ~/Documents/test.txt
 `
 
 # Troubleshooting
-On a Mac, it may be necessary to allow the terminal full access to the hard disk. Otherwise, running the script may yield `Operation not permitted.` being output.
+A few of the potential issues with the script are outlined with troubleshooting steps below.
+
+### Operation not permitted
+On a Mac running OS X or higher, it may be necessary to allow the terminal full access to the hard disk. This can be done via the system settings. Otherwise, running the script may yield `Operation not permitted`.
+
+### permission denied
+To make the script executable, its permissions need to be updated using the command: <br />
+`chmod 755 finder.sh`
