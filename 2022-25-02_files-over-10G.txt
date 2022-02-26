@@ -1,0 +1,39 @@
+268G	/
+145G	/System
+128G	/System/Volumes
+126G	/System/Volumes/Data
+ 71G	/Users/danstoakes
+ 71G	/Users
+ 71G	/System/Volumes/Data/Users/danstoakes
+ 71G	/System/Volumes/Data/Users
+ 54G	/Users/danstoakes/Library
+ 54G	/System/Volumes/Data/Users/danstoakes/Library
+ 39G	/System/Volumes/Data/Applications
+ 39G	/Applications
+ 16G	/System/Volumes/Data/Applications/Xcode.app/Contents
+ 16G	/System/Volumes/Data/Applications/Xcode.app
+ 16G	/System/Library
+ 16G	/Applications/Xcode.app/Contents
+ 16G	/Applications/Xcode.app
+ 14G	/Users/danstoakes/Library/Android/sdk
+ 14G	/Users/danstoakes/Library/Android
+ 14G	/System/Volumes/Data/Users/danstoakes/Library/Android/sdk
+ 14G	/System/Volumes/Data/Users/danstoakes/Library/Android
+ 13G	/System/Volumes/Data/Applications/Xcode.app/Contents/Developer
+ 13G	/Applications/Xcode.app/Contents/Developer
+ 12G	/Users/danstoakes/Library/Developer
+ 12G	/Users/danstoakes/Library/Caches
+ 12G	/Users/danstoakes/Library/Android/sdk/system-images
+ 12G	/System/Volumes/Data/Users/danstoakes/Library/Developer
+ 12G	/System/Volumes/Data/Users/danstoakes/Library/Caches
+ 12G	/System/Volumes/Data/Users/danstoakes/Library/Android/sdk/system-images
+ 12G	/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/Platforms
+ 12G	/Applications/Xcode.app/Contents/Developer/Platforms
+ 10G	/System/Volumes/Data/Applications/Unity/Hub/Editor/2020.3.9f1
+ 10G	/System/Volumes/Data/Applications/Unity/Hub/Editor
+ 10G	/System/Volumes/Data/Applications/Unity/Hub
+ 10G	/System/Volumes/Data/Applications/Unity
+ 10G	/Applications/Unity/Hub/Editor/2020.3.9f1
+ 10G	/Applications/Unity/Hub/Editor
+ 10G	/Applications/Unity/Hub
+ 10G	/Applications/Unity
