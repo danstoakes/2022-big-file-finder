@@ -32,16 +32,21 @@ if [ -z "$size" ]; then
 	size=1G
 fi
 
-if [ -z "$directory" ]; then
-	directory=/
+if [ ! -d "$directory" ]; then
+        echo "$directory is not a valid search directory"
+        exit 
+fi
+
+if [ -z "$directory" ] || [ ! -d "$directory" ]; then
+        directory=/
 fi
 
 cd "$directory"
 echo "Finding files in directory $directory"
 
 if [ "$file" ]; then
-	echo "Writing to file $file"
-	du -ht "$size" "$directory" 2>/dev/null | sort -nr > "$file"
+        echo "Writing to file $file"
+        du -ht "$size" "$directory" 2>/dev/null | sort -nr > "$file"
 else
-	du -ht "$size" "$directory" 2>/dev/null | sort -nr
+        du -ht "$size" "$directory" 2>/dev/null | sort -nr
 fi
